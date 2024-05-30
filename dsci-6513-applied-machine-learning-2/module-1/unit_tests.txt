@@ -1,0 +1,4 @@
+np.testing.assert_almost_equal(meanAbErr_xg, maesol, decimal=2, err_msg="Alpha is {} instead of {}.".format(meanAbErr_xg, maesol), verbose=True)
+np.testing.assert_almost_equal(meanSqErr_xg, msesol, decimal=2, err_msg="Alpha is {} instead of {}.".format(meanSqErr_xg, msesol), verbose=True)
+np.testing.assert_almost_equal(rootMeanSqErr_xg, rmsesol, decimal=2, err_msg="Alpha is {} instead of {}.".format(rootMeanSqErr_xg, rmsesol), verbose=True)
+np.testing.assert_almost_equal(r2_xg, r2sol, decimal=2, err_msg="Alpha is {} instead of {}.".format(r2_xg, r2sol), verbose=True)
